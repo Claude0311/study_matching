@@ -1,4 +1,9 @@
-# study_matching
+# study_matching留學配對
+評分機制：
+* 同樣學位+1.5分
+* 同樣領域+2分
+* gpa + 1/(abs(a-b)+1)
+用hungarian algorithm使分數總和最大
 ## init
 ```
 pip install numpy
